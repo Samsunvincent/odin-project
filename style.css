@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.get-started-txt {
+    background-color: rgb(15 118 110);
+    color: white;
+
+}
+
+.odin-project-txt {
+    font-size: 20px;
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bnt-decor {
+    border: none;
+    display: none;
+}
+
+@media only screen and (max-width:1023px) {
+    .display-none-txt {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .display-none-txt1 {
+        display: none;
+    }
+
+    .bnt-decor {
+        display: block;
+    }
+
+
+
+}
+
+.small-img {
+    text-align: center;
+    width: 25px;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+.offcanvas-start {
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.career-txt {
+    font-size: 60px;
+
+    color: rgb(55, 65, 81);
+    font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+.career-txt1 {
+    color: rgb(169, 121, 43)
+}
+
+.button-secondary {
+    background-color: rgb(255 255 255);
+    border-color: rgb(209 213 219);
+    border-radius: 5px;
+}
+
+.works-txt {
+    color: rgb(75, 85, 99);
+    font-size: 18px;
+}
+
+.learn-img {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.WORK {
+    padding: 100PX;
+}
+.learn-everything-bg-color{
+    background-color: #f3f4f6;
+}
+.border-white{
+    width: 224px;
+    min-height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+.intermediatiate-txt{
+    font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(75, 85, 99);
+}
+@media only screen and (max-width:790px){
+    .flex-query{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      
+
+    }
+}
+.succes-stories-background-color{
+    background-color: #ebebeb;
+}
