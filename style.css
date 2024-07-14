@@ -120,3 +120,7 @@ a {
 .succes-stories-background-color{
     background-color: #ebebeb;
 }
+.pando-border-radius{
+    width: 48px;
+    border-radius: 4em;
+}
