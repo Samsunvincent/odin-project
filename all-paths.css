@@ -59,3 +59,11 @@ a {
     text-decoration: none;
     color: inherit;
 }
+body{
+    background-color: rgb(249,250,251);
+}
+.border-white{
+    width: 896px;
+    height: 200px;
+    background-color: white;
+}
