@@ -109,18 +109,31 @@ a {
     line-height: 28px;
     color: rgb(75, 85, 99);
 }
-@media only screen and (max-width:790px){
-    .flex-query{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      
 
-    }
-}
 .succes-stories-background-color{
     background-color: #ebebeb;
 }
 .pando-border-radius{
     width: 48px;
     border-radius: 4em;
+}
+.odin-project-txt1{
+    color: rgb(107, 114, 128);
+}
+.sample{
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3);
+    row-gap: 30px;
+}
+@media only screen and (max-width:790px){
+    .sample{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      
+
+    }
 }
